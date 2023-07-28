@@ -13,10 +13,6 @@
       text-align: left;
   }
   
-  h1 {
-      border-bottom: 2px solid #ff7e31;
-  }
-  
   .bar {
       border: 1px solid #1e1e1e;
       background: #ff7e31;
@@ -26,7 +22,7 @@
       text-decoration: none;
       font-weight: bold;
   }
-  
+
   .content, video, .thumb {
       border: 1px solid #1e1e1e;
       border-top: none;
@@ -76,9 +72,10 @@
   
   input, button, textarea, select {
       font-size: 12px;
+      color: #ffffff;
       font-family: Tahoma, Verdana, Helvetica, sans-serif;
-      border: 1px solid #1e1e1e;
-      background: white;
+      border: 3px solid #2e2e2e;
+      background: rgb(20, 20, 20);
       box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
       padding: 3px;
       margin-bottom: 3px;
